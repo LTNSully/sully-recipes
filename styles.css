@@ -54,6 +54,22 @@ header {
     border-radius: 10px;
 }
 
+.feature-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.feature-link .feature {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-link .feature:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .feature-text{
     display: flex;
     flex-direction: column;
